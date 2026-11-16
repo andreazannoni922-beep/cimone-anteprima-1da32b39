@@ -14,17 +14,17 @@
 <meta property="og:image" content="materiale/condivisione.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="font" type="font/ttf" href="caratteri/Anton-Regular.ttf" crossorigin>
-<link rel="stylesheet" href="css/stile.css">
-<link rel="stylesheet" href="css/pezzi.css">
-<link rel="stylesheet" href="css/pezzi-rb.css">
-<link rel="stylesheet" href="css/effetti.css">
+<link rel="stylesheet" href="css/stile.css?v=33">
+<link rel="stylesheet" href="css/pezzi.css?v=33">
+<link rel="stylesheet" href="css/pezzi-rb.css?v=33">
+<link rel="stylesheet" href="css/effetti.css?v=33">
 <script>document.documentElement.classList.add('js')</script>
 <script defer src="js/lib/gsap.min.js"></script>
 <script defer src="js/lib/ScrollTrigger.min.js"></script>
 <script defer src="js/lib/SplitText.min.js"></script>
 <script defer src="js/lib/CustomEase.min.js"></script>
 <script defer src="js/home.js"></script>
-<script type="module" src="js/effetti.js"></script>
+<script type="module" src="js/effetti.js?v=33"></script>
 </head>
 <body>
 
@@ -63,8 +63,8 @@
   <div class="apertura__binario">
     <div class="apertura__palco">
             <div class="apertura__ia" aria-hidden="true">
-        <video class="apertura__ia-film" muted playsinline preload="auto" poster="materiale/film/film-cimone-primo.jpg" data-src-1080="materiale/film/film-cimone-1080.mp4" data-src-720="materiale/film/film-cimone-720.mp4" data-src-v="materiale/film/film-cimone-v.mp4"></video>
-        <video class="apertura__ia-anello" muted loop playsinline preload="none" tabindex="-1" data-src-1080="materiale/film/film-cimone-anello-1080.mp4" data-src-720="materiale/film/film-cimone-anello-720.mp4" data-src-v="materiale/film/film-cimone-anello-v.mp4"></video>
+        <video class="apertura__ia-film" muted playsinline preload="auto" poster="materiale/film/film2-primo.jpg" data-src-1080="materiale/film/film2-1080.mp4" data-src-720="materiale/film/film2-720.mp4" data-src-v="materiale/film/film2-v.mp4"></video>
+        <video class="apertura__ia-anello" muted loop playsinline preload="none" tabindex="-1" data-src-1080="materiale/film/film2-anello-1440.mp4" data-src-720="materiale/film/film2-anello-720.mp4" data-src-v="materiale/film/film2-anello-v.mp4"></video>
         <button class="apertura__salta" type="button">Salta il film</button>
       </div>
             <div class="apertura__film"><picture><source media="(max-aspect-ratio: 4/5)" srcset="materiale/film/fermo-916.jpg"><img src="materiale/film/fermo-169.jpg" alt="" loading="lazy"></picture><video class="apertura__cielo" muted loop playsinline preload="auto" data-src-169="materiale/film/m-cielo-169.mp4" data-src-916="materiale/film/m-cielo-916.mp4" aria-hidden="true"></video></div>
@@ -208,10 +208,10 @@
 </section>
 
 <section class="anno" id="anno-scorso">
-    <div class="corridoio-binario" data-corridoio><div class="corridoio-palco">
-  <div class="contenitore anno__testa"><h2 class="t-h2">Memories are forever</h2><p class="t-grande">L'anno scorso è andata così.</p></div>
-  <div class="corridoio" id="corridoio" data-foto='["materiale/foto/p/v276.jpg","materiale/foto/p/o371.jpg","materiale/foto/p/v338.jpg","materiale/foto/p/o166.jpg","materiale/foto/p/v324.jpg","materiale/foto/p/o516.jpg","materiale/foto/p/v388.jpg","materiale/foto/p/o532.jpg","materiale/foto/p/v336.jpg","materiale/foto/p/o574.jpg","materiale/foto/p/v337.jpg","materiale/foto/p/o518.jpg","materiale/foto/p/v055.jpg","materiale/foto/p/v056.jpg","materiale/foto/p/v000.jpg"]' aria-label="Le foto dell'anno scorso lungo un corridoio"></div>
-  </div></div>
+    <div class="volo-foto" data-volo-foto data-foto='["q01","q02","q03","q04","q05","q06","q07","q08","q09","q10","q11","q12","q13","q14","q15","q16","q17","q18","q19","q20","q21","q22","q23","q24","q25","q26","q27","q28","q29","q30"]'>
+    <ul class="im-field" aria-hidden="true"></ul>
+    <div class="im-copy"><div class="im-title"><h2 class="t-h2">Memories are forever</h2><p class="t-grande">L'anno scorso è andata così.</p></div></div>
+  </div>
     <div class="muro3d" data-muro3d data-foto='["m01","m02","m03","m04","m05","m06","m07","m08","m09","m10","m11","m12","m13","m14","m15","m16","m17","m18","m19","m20","m21","m22","m23","m24","m25","m26","m27","m28","m29","m30","m31","m32"]' aria-hidden="true"></div>
   <div class="giostra-sezione">
     <div class="giostra" data-giostra tabindex="0" role="group" aria-label="L'aftermovie e le foto dell'anno scorso: trascina o usa le frecce"><div class="giostra__binario">
